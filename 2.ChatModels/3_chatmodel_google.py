@@ -1,4 +1,4 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI ## can purchase api key from ai.google.dev
 from dotenv import load_dotenv
 
 load_dotenv()
