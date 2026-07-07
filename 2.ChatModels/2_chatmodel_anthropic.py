@@ -1,7 +1,7 @@
-from langchain_anthropic import ChatAnthropic
-from dotenv import load_dotenv
+from langchain_anthropic import ChatAnthropic ## import chat model of anthropic from langchain
+from dotenv import load_dotenv ## import load env from dotenv
 
-load_dotenv()
+load_dotenv()##call loadenv
 
 model = ChatAnthropic(model='claude-3-5-sonnet-20241022')
 
